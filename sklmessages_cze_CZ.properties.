@@ -1,0 +1,197 @@
+lang.name=čeština
+lang.code=cze
+
+general.issues=Nahlásit problém  
+general.support=Podpořte nás na Patreonu
+general.discord=Připojte se k našemu Discordu
+general.notready=Tato funkce ještě není připravena!
+generic.disabled=Vypnuto
+generic.enabled=Zapnuto
+generic.soon=Brzy
+generic.new=Nové
+generic.loading=Načítání
+
+tab.news=Novinky
+tab.log=Spouštěcí protokol
+tab.output=Herní výstup (%s)
+tab.crash=Zpráva o spadnutí (%s)
+
+# Sidebar
+sidebar.label.logged=Přihlášen jako
+sidebar.label.player=Hráč
+sidebar.button.switch=Přepnout uživatele
+sidebar.button.settings=Nastavení Launcheru
+sidebar.button.manager=Správce instalací
+sidebar.menu.item.edit=Upravit instalaci
+sidebar.menu.item.duplicate=Duplikovat instalaci
+sidebar.menu.item.browse=Otevřít instalační adresu
+sidebar.menu.item.delete=Smazat instalaci
+sidebar.game.button.play=Hrát
+sidebar.game.button.play.demo=Hrát Demo verzi
+sidebar.game.button.play.offline=Hrát offline
+sidebar.game.button.playing=Hrajete
+sidebar.game.button.already=Již hrajete
+sidebar.game.button.loading=Načítání
+sidebar.game.button.preparing=Příprava
+sidebar.game.button.downloading=Stahování
+sidebar.game.button.installing=Instalace
+sidebar.game.button.launching=Zapínání
+sidebar.game.button.idle=Nečinný
+
+# Versions List
+versions.category.vanilla=Vanilla
+versions.category.modded=Modded
+versions.type.stable=Stable
+versions.type.release=Release
+versions.type.pending=Experimental
+versions.type.snapshot=Snapshot
+versions.type.historical=Historical
+versions.type.old_beta=Old Beta
+versions.type.old_alpha=Old Alpha
+versions.type.custom=Custom
+versions.type.removed=Removed
+versions.version.latest=Latest
+versions.version.latestalt=Nejnovější verze
+versions.version.latest-release=Nejnovější vydání
+versions.version.latest-snapshot=Nejnovější Snapshot
+
+# Crash Screen
+crash.sorry=Uhoh! It looks like the game has crashed. Sorry for the inconvenience :(
+crash.vanilla=Using magic and love, we\'ve managed to gather some details about the crash, and we will investigate this as soon as we can. You can see the full report below.
+crash.modded=We think your game may be modded, and as such we can\'t accept this crash report. However, if you do indeed use mods, please send this to the mod authors to take a look at.
+crash.open=Open report file
+crash.alert.title=Oops! The game has crashed
+crash.alert.text=But we found a possible solution to your problem. Do you want to check it now?
+crash.alert.button.ignore=Ignore
+crash.alert.button.open=Open website
+
+# Crash Popup
+crash.header.title=Hra spadla
+crash.footer.button.close=Zavřít
+crash.footer.button.view=Zobrazit hlášení
+crash.footer.button.link=Získat odkaz k nahlášení
+# Alerts
+alert.button.confirm=Potvrdit
+alert.button.cancel=Zrušit
+
+# About
+about.translation=Translated by:Quintonamous
+about.translation.authors=Quintonamous
+
+# Login Screen
+login.button.type.microsoft=přihlásit přes Microsoft
+login.button.type.offline=Přihlásit se offline
+login.label.username=Uživatelské jméno
+login.dropdown.name=Přihlášení uživatelé
+login.button.play=Hrát
+login.button.logout=Odhlásit
+login.button.switch.offline=Přepnout do režimu offline
+login.button.switch.online=Přepnout do režimu online
+
+# Settings
+settings.header.general=Obecné
+settings.header.updates=Aktualizace
+settings.header.about=O
+settings.footer.button.save=Uložit
+
+settings.option.language.name=Jazyk
+settings.option.language.info=Chcete-li použít změny, musíte restartovat spouštěč.
+settings.option.accent.name=Barva zvýraznění
+settings.option.theme.name=Režim
+settings.option.theme.light.name=Světlý režim
+settings.option.theme.dark.name=Tmavý režim
+settings.option.theme.black.name=Černý režim
+settings.option.sorting.name=Třídění instalací
+settings.option.sorting.bylastplayed.name=Seřadit instalace podle naposledy hraných
+settings.option.sorting.byname.name=Seřadit instalace podle názvu
+settings.option.sorting.custom.name=Vlastní seřazení
+settings.option.default.name=Skrýt výchozí instalace
+settings.option.console.name=Zobrazit konzoli Launcheru
+settings.option.xmx.name=Povolit argumenty Xmx
+settings.option.xmx.info=Tuto možnost použijte, pokud víte, co děláte
+settings.option.performance.name=Režim výkonu
+settings.option.performance.info=Tato možnost vypne některé animace
+settings.option.halloween.name=Halloweenský režim
+settings.option.xmas.name=Vánoční režim
+settings.option.provider.name=Výchozí poskytovatel Modpacku
+
+settings.about.contributors=Thanks to all contributors:
+
+# Installations Manager
+manager.header.profiles=Instalace
+manager.header.modpacks=Modpacky
+manager.header.mods=Mody
+manager.header.resourcepacks=Resource Packy
+manager.header.maps=Mapy
+manager.header.shaders=Shadery
+
+manager.button.new=Nová instalace
+manager.button.import=Vložit modpack
+manager.profile.button.play=Hrát
+manager.profile.menu.edit=Upravit
+manager.profile.menu.duplicate=Duplikovat
+manager.profile.menu.delete=Smazat
+
+manager.editor.header.title=Upravit instalaci
+manager.editor.footer.button.save=Uložit
+manager.editor.option.name.name=Název instalace
+manager.editor.option.name.placeholder=Instalace bez názvu
+manager.editor.option.version.name=Verze
+manager.editor.option.version.vanilla=Vanilla
+manager.editor.option.directory.name=Adresář hry
+manager.editor.option.directory.placeholder=Použít výchozí adresář
+manager.editor.option.directory.info.label=Některé mody mohou vyžadovat umístění instalace ve složce .minecraft. Chcete-li použít adresář hry .minecraft,
+manager.editor.option.directory.info.link=klikněte zde.
+
+manager.editor.button.more=Více možností
+manager.editor.option.resolution.name=Rozlišení
+manager.editor.option.resolution.height=Výška
+manager.editor.option.resolution.width=Šířka
+manager.editor.option.resolution.fullscreen=Celá obrazovka
+manager.editor.option.memory.name=Maximální paměť (RAM)
+manager.editor.option.memory.auto=AUTO
+manager.editor.option.memory.disabled.info=Tato možnost je vypnutá, protože máte povoleno „Povolit argumenty Xmx“.
+manager.editor.option.compatibility.name=Režim kompatibility
+manager.editor.option.compatibility.enabled=Zapnut
+manager.editor.option.compatibility.info=Tato možnost zakáže systém skinů, použijte ji pouze v případě nutnosti
+manager.editor.option.visibility.name=Viditelnost Launcheru
+manager.editor.option.visibility.hide=Skryjte launcher a znovu jej otevřete, když se hra zavře
+manager.editor.option.visibility.close=Zavřete launcher při spuštění hry
+manager.editor.option.visibility.keep=Nechte launcher otevřený a zobrazte herní výstup
+manager.editor.option.visibility.keep.info=This option is not recommended for low-end computers
+manager.editor.option.jvmpath.name=Java Executable
+manager.editor.option.jvmpath.placeholder=Use bundled Java runtime
+manager.editor.option.jvmargs.name=JVM Arguments
+manager.editor.option.jvmargs.info=Tato volba ignoruje argumenty -Xmx, místo toho použijte Maximální Paměť
+
+manager.modpack.search=Search modpacky
+manager.modpack.search.unavailable=Vyhledávání je nedostupné
+manager.modpack.search.noresults=Nebyly nalezeny žádné výsledky
+manager.modpack.header.info=Informace o modpacku
+manager.modpack.header.back=Zpět
+manager.modpack.info.install=Nainstalovat nejnovější
+# <modpack name> od <modpack author>
+manager.modpack.info.by=od
+manager.modpack.details.releasedate=Datum vydání
+manager.modpack.details.filename=Název složky
+manager.modpack.details.gameversion=Herní verze
+manager.modpack.details.action.install=Instalovat
+manager.modpack.pagination.previous=Předchozí
+manager.modpack.pagination.next=Další
+
+# New Alerts
+alert.duplicate.window.title=Upozornění na duplicitní instanci
+alert.duplicate.label.title=Již máte spuštěnou instanci Minecraftu.
+alert.duplicate.label.body=Pokud spustíte další ve stejném adresáři, mohou kolidovat a poškodit vaše uložení. \nTo může způsobit mnoho problémů, v singleplayeru i jinak. Nebudeme zodpovědní za nic, co se pokazí. \nChcete navzdory tomu spustit další instanci Minecraftu? \nTento problém můžete vyřešit spuštěním hry v jiném adresáři (viz tlačítko "Upravit instalaci").
+
+alert.downgrade.window.title=Upozornění na nekompatibilní instalace
+alert.downgrade.label.title=Resetovat instalace?
+alert.downgrade.label.body=Zdá se, že jste použili jiný launcher než tento! \nPokud se vrátíte k používání tohoto, budeme muset resetovat vaší konfiguraci.
+alert.downgrade.button.reset=Jsem si jistý. Obnovit moje nastavení
+alert.downgrade.button.cancel=Tak nic, zavřete tento Launcher
+
+alert.invalid.window.title=Upozornění na neplatné verze
+alert.invalid.label.title=Byly zjištěny neplatné verze :(
+alert.invalid.label.body=Následující verze jsou neplatné a nelze je načíst. \nPoznámka: Některé verze stažené prostřednictvím jiných launcherů nepodporujeme.
+alert.invalid.button.delete=Smazat neplatné verze
+alert.invalid.button.close=Zavřít
